@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pk.zarsh.campus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActStudent"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:label="Login"/>
+        <activity android:name=".SignupCompany"
+            android:label="Company Sign Up"/>
+        <activity android:name=".ListJobs"
+            android:label="Jobs List"/>
+        <activity android:name=".SignupStudent"
+            android:label="Student Signup"/>
+        <activity android:name=".ListCompany"
+            android:label="Company list"/>
+        <activity android:name=".AppliedStudents"
+            android:label="Applied Student"/>
+        <activity android:name=".Jobs"
+            android:label="Jobs"/>
+        <activity android:name=".ListStudent"
+            android:label="List of Student"/>
+        <activity android:name=".CreateJob"
+            android:label="Create Job"/>
+        <activity android:name=".MainActAdmin"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="Admin"/>
+        <activity android:name=".Signin"
+            android:label="Student">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".MainActCompany"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="Company"/>
+        <activity android:name=".Signup"
+            android:label="Registration"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <activity android:name=".SpecificJobs" />
+        <activity android:name=".EditProfileStudent"></activity>
+    </application>
+
+</manifest>

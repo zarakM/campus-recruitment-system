@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "864393950863",
+    "firebase_url": "https://campus-recruitment-8a151.firebaseio.com",
+    "project_id": "campus-recruitment-8a151",
+    "storage_bucket": "campus-recruitment-8a151.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864393950863:android:7adca4c3915b1b6e",
+        "android_client_info": {
+          "package_name": "pk.zarsh.campus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864393950863-jrr6s6jfpg3j4imspqv2vmesqtgo9o5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9-gFT9B0pIYpxWnlOZaxNn9FaisG5mjQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
